@@ -41,7 +41,7 @@ class Bwin:
         driver = Firefox()
         driver.minimize_window()
         #driver.get("https://sports.bwin.de/en/sports/football-4")
-        driver.get("https://sports.bwin.de/en/sports/football-4/betting/germany-17/bundesliga-102842")
+        driver.get("https://sports.bwin.de/de/sports/fu%C3%9Fball-4/wetten/deutschland-17/bundesliga-102842")
         time.sleep(5)
         class_team_names = 'participants-pair-game'
         class_score = 'grid-scoreboard'

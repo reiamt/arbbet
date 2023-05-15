@@ -5,9 +5,11 @@ from bah_funcs import BAH
 
 bwin = Bwin()
 bwin_games = bwin.get_football_games()
+print(bwin_games[['Team1','Team2']])
 
 bah = BAH()
 bah_games = bah.get_football_bets()
+print(bah_games[['Team1', 'Team2']])
 
 result_merge = pd.merge(bwin_games, bah_games, on=['Team1','Team2'])
 
@@ -23,12 +25,15 @@ def f(x):
     a, b, c = x
     return 1/a+1/b+1/c
 
+cols_added = []
 for i, possibility in enumerate(possibilities):
     tmp = [c for p, c in zip(possibility, cols) if p]
-    result_merge['ip_'+str(i)] = result_merge[tmp].apply(f, axis=1, result_type='expand')
+    new_col = 'ip_'+str(i)
+    cols_added.append(new_col)
+    result_merge[new_col] = result_merge[tmp].apply(f, axis=1, result_type='expand')
 
-print(result_merge[cols].min())
-print(result_merge[cols].idxmin())
+print(result_merge[cols_added].min(axis=1))
+print(result_merge[cols_added].idxmin(axis=1))
 
 
 print(result_merge)

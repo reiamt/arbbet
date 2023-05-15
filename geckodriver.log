@@ -2074,3 +2074,333 @@ console.warn: services.settings: main/partitioning-exempt-urls sync interrupted 
 1684143852460	Marionette	INFO	Stopped listening on port 53401
 1684143854586	Marionette	INFO	Stopped listening on port 53589
 1684143856159	Marionette	INFO	Stopped listening on port 55839
+1684147241632	geckodriver	INFO	Listening on 127.0.0.1:58541
+1684147242616	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofilex2hKSP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684147244462	Marionette	INFO	Marionette enabled
+1684147244778	Marionette	INFO	Listening on port 58549
+Read port: 58549
+1684147244983	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofilex2hKSP/search.json.mozlz4", (void 0)))
+JavaScript warning: https://sports.bwin.de/ClientDist/main.963bd5c9bb7386d0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1684147285637	Marionette	INFO	Stopped listening on port 58549
+1684147287475	geckodriver	INFO	Listening on 127.0.0.1:58720
+1684147288482	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofilep3vg3H"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684147289157	Marionette	INFO	Marionette enabled
+1684147289559	Marionette	INFO	Listening on port 58730
+Read port: 58730
+1684147289729	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofilep3vg3H/search.json.mozlz4", (void 0)))
+1684147300118	Marionette	INFO	Stopped listening on port 58730
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684163787064	geckodriver	INFO	Listening on 127.0.0.1:55967
+1684163788049	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileXuGnr0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684163791250	Marionette	INFO	Marionette enabled
+1684163791529	Marionette	INFO	Listening on port 55983
+Read port: 55983
+1684163791742	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileXuGnr0/search.json.mozlz4", (void 0)))
+JavaScript warning: https://sports.bwin.de/ClientDist/main.963bd5c9bb7386d0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1684163801592	Marionette	INFO	Stopped listening on port 55983
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
+1684163802646	geckodriver	INFO	Listening on 127.0.0.1:56074
+1684163803655	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofilerwXuYS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684163804226	Marionette	INFO	Marionette enabled
+1684163804405	Marionette	INFO	Listening on port 56081
+Read port: 56081
+1684163804538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofilerwXuYS/search.json.mozlz4", (void 0)))
+1684163815125	Marionette	INFO	Stopped listening on port 56081
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
+1684163926909	geckodriver	INFO	Listening on 127.0.0.1:56285
+1684163927896	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofile2KDGir"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684163929791	Marionette	INFO	Marionette enabled
+1684163930076	Marionette	INFO	Listening on port 56297
+Read port: 56297
+1684163930356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofile2KDGir/search.json.mozlz4", (void 0)))
+JavaScript warning: https://sports.bwin.de/ClientDist/main.963bd5c9bb7386d0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1684163941340	Marionette	INFO	Stopped listening on port 56297
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684163942206	geckodriver	INFO	Listening on 127.0.0.1:56420
+1684163943215	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileG73sDZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684163943980	Marionette	INFO	Marionette enabled
+1684163944193	Marionette	INFO	Listening on port 56430
+Read port: 56430
+1684163944352	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileG73sDZ/search.json.mozlz4", (void 0)))
+1684163956330	Marionette	INFO	Stopped listening on port 56430
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684164204697	geckodriver	INFO	Listening on 127.0.0.1:56780
+1684164205688	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofilenrPh42"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684164207400	Marionette	INFO	Marionette enabled
+1684164207733	Marionette	INFO	Listening on port 56788
+Read port: 56788
+1684164207920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofilenrPh42/search.json.mozlz4", (void 0)))
+JavaScript warning: https://sports.bwin.de/ClientDist/main.963bd5c9bb7386d0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1684164217737	Marionette	INFO	Stopped listening on port 56788
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684164219096	geckodriver	INFO	Listening on 127.0.0.1:56886
+1684164220107	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofile9xHONl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684164220828	Marionette	INFO	Marionette enabled
+1684164221038	Marionette	INFO	Listening on port 56895
+Read port: 56895
+1684164221286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofile9xHONl/search.json.mozlz4", (void 0)))
+1684164232939	Marionette	INFO	Stopped listening on port 56895
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684164370933	geckodriver	INFO	Listening on 127.0.0.1:57134
+1684164371929	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileokOPlU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684164373659	Marionette	INFO	Marionette enabled
+1684164373935	Marionette	INFO	Listening on port 57145
+Read port: 57145
+1684164374113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileokOPlU/search.json.mozlz4", (void 0)))
+JavaScript warning: https://sports.bwin.de/ClientDist/main.963bd5c9bb7386d0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1684164399781	Marionette	INFO	Stopped listening on port 57145
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684164401013	geckodriver	INFO	Listening on 127.0.0.1:57303
+1684164402021	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofile6GVzrl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684164402640	Marionette	INFO	Marionette enabled
+1684164402839	Marionette	INFO	Listening on port 57314
+Read port: 57314
+1684164402990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofile6GVzrl/search.json.mozlz4", (void 0)))
+1684164414979	Marionette	INFO	Stopped listening on port 57314
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
+1684164666458	geckodriver	INFO	Listening on 127.0.0.1:57673
+1684164667468	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileIE3lG7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684164669190	Marionette	INFO	Marionette enabled
+1684164669465	Marionette	INFO	Listening on port 57686
+Read port: 57686
+1684164669631	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileIE3lG7/search.json.mozlz4", (void 0)))
+JavaScript warning: https://sports.bwin.de/ClientDist/main.963bd5c9bb7386d0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1684164682415	Marionette	INFO	Stopped listening on port 57686
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.jsm", 116))
+1684164683195	geckodriver	INFO	Listening on 127.0.0.1:57779
+1684164684205	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileIW5cfQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684164684852	Marionette	INFO	Marionette enabled
+1684164685060	Marionette	INFO	Listening on port 57790
+Read port: 57790
+1684164685193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileIW5cfQ/search.json.mozlz4", (void 0)))
+1684164697642	Marionette	INFO	Stopped listening on port 57790
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
+1684165000568	geckodriver	INFO	Listening on 127.0.0.1:58226
+1684165001557	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileWXBUc4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684165003267	Marionette	INFO	Marionette enabled
+1684165003547	Marionette	INFO	Listening on port 58233
+Read port: 58233
+1684165003730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileWXBUc4/search.json.mozlz4", (void 0)))
+1684165021778	Marionette	INFO	Stopped listening on port 58233
+1684165064711	geckodriver	INFO	Listening on 127.0.0.1:58428
+1684165065712	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileF8syma"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684165066533	Marionette	INFO	Marionette enabled
+1684165066800	Marionette	INFO	Listening on port 58437
+Read port: 58437
+1684165066954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileF8syma/search.json.mozlz4", (void 0)))
+1684165076837	Marionette	INFO	Stopped listening on port 58437
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684165116262	geckodriver	INFO	Listening on 127.0.0.1:58611
+1684165117266	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileIUHk6G"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684165118131	Marionette	INFO	Marionette enabled
+1684165118386	Marionette	INFO	Listening on port 58622
+Read port: 58622
+1684165118541	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileIUHk6G/search.json.mozlz4", (void 0)))
+1684165130127	Marionette	INFO	Stopped listening on port 58622
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684165186774	geckodriver	INFO	Listening on 127.0.0.1:58820
+1684165187770	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofilex1jumV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684165188606	Marionette	INFO	Marionette enabled
+1684165188858	Marionette	INFO	Listening on port 58829
+Read port: 58829
+1684165189039	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofilex1jumV/search.json.mozlz4", (void 0)))
+1684165199029	Marionette	INFO	Stopped listening on port 58829
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684165372621	geckodriver	INFO	Listening on 127.0.0.1:59175
+1684165373606	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofiley0VJ72"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684165375656	Marionette	INFO	Marionette enabled
+1684165375941	Marionette	INFO	Listening on port 59182
+Read port: 59182
+1684165376167	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofiley0VJ72/search.json.mozlz4", (void 0)))
+1684165387757	Marionette	INFO	Stopped listening on port 59182
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684165457086	geckodriver	INFO	Listening on 127.0.0.1:59399
+1684165458092	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofilesdENHF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684165459178	Marionette	INFO	Marionette enabled
+1684165459465	Marionette	INFO	Listening on port 59408
+Read port: 59408
+1684165459657	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofilesdENHF/search.json.mozlz4", (void 0)))
+1684165471254	Marionette	INFO	Stopped listening on port 59408
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684165684019	geckodriver	INFO	Listening on 127.0.0.1:59777
+1684165685014	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofile1xXtUC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684165686715	Marionette	INFO	Marionette enabled
+1684165686985	Marionette	INFO	Listening on port 59787
+Read port: 59787
+1684165687200	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofile1xXtUC/search.json.mozlz4", (void 0)))
+1684165699163	Marionette	INFO	Stopped listening on port 59787
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684165785444	geckodriver	INFO	Listening on 127.0.0.1:60028
+1684165786454	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileoKdZE5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684165787228	Marionette	INFO	Marionette enabled
+1684165787447	Marionette	INFO	Listening on port 60035
+Read port: 60035
+1684165787559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileoKdZE5/search.json.mozlz4", (void 0)))
+1684165799918	Marionette	INFO	Stopped listening on port 60035
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684165951624	geckodriver	INFO	Listening on 127.0.0.1:60337
+1684165952628	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileSq4Lod"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684165953662	Marionette	INFO	Marionette enabled
+1684165953933	Marionette	INFO	Listening on port 60348
+Read port: 60348
+1684165954090	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileSq4Lod/search.json.mozlz4", (void 0)))
+1684165966867	Marionette	INFO	Stopped listening on port 60348
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684166000838	geckodriver	INFO	Listening on 127.0.0.1:60524
+1684166001850	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileUgdk3c"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684166002707	Marionette	INFO	Marionette enabled
+1684166002961	Marionette	INFO	Listening on port 60534
+Read port: 60534
+1684166003118	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileUgdk3c/search.json.mozlz4", (void 0)))
+1684166014808	Marionette	INFO	Stopped listening on port 60534
+console.error: (new Error("IndexedDB: main/partitioning-exempt-urls list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
+1684166518835	geckodriver	INFO	Listening on 127.0.0.1:61271
+1684166519836	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileICDbpV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684166521545	Marionette	INFO	Marionette enabled
+1684166521844	Marionette	INFO	Listening on port 61284
+Read port: 61284
+1684166522042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileICDbpV/search.json.mozlz4", (void 0)))
+1684166576622	geckodriver	INFO	Listening on 127.0.0.1:61451
+1684166577627	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofile0s86sV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684166578362	Marionette	INFO	Marionette enabled
+1684166578574	Marionette	INFO	Listening on port 61460
+Read port: 61460
+1684166578762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofile0s86sV/search.json.mozlz4", (void 0)))
+1684166647148	Marionette	INFO	Stopped listening on port 61284
+1684166650058	Marionette	INFO	Stopped listening on port 61460
+1684166678009	geckodriver	INFO	Listening on 127.0.0.1:61702
+1684166679017	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofiletDOaGb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684166679871	Marionette	INFO	Marionette enabled
+1684166680128	Marionette	INFO	Listening on port 61711
+Read port: 61711
+1684166680296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofiletDOaGb/search.json.mozlz4", (void 0)))
+1684166693133	Marionette	INFO	Stopped listening on port 61711
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684166928956	geckodriver	INFO	Listening on 127.0.0.1:62119
+1684166929952	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofilecQTsQS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684166931260	Marionette	INFO	Marionette enabled
+1684166931520	Marionette	INFO	Listening on port 62128
+Read port: 62128
+1684166931717	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofilecQTsQS/search.json.mozlz4", (void 0)))
+1684166943574	Marionette	INFO	Stopped listening on port 62128
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684167059075	geckodriver	INFO	Listening on 127.0.0.1:62389
+1684167060070	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileiP2SlL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684167060976	Marionette	INFO	Marionette enabled
+1684167061233	Marionette	INFO	Listening on port 62400
+Read port: 62400
+1684167061394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileiP2SlL/search.json.mozlz4", (void 0)))
+1684167073102	Marionette	INFO	Stopped listening on port 62400
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684167296768	geckodriver	INFO	Listening on 127.0.0.1:62814
+1684167297769	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileTezB8F"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684167298702	Marionette	INFO	Marionette enabled
+1684167298963	Marionette	INFO	Listening on port 62821
+Read port: 62821
+1684167299131	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileTezB8F/search.json.mozlz4", (void 0)))
+1684167310787	Marionette	INFO	Stopped listening on port 62821
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1684167521790	geckodriver	INFO	Listening on 127.0.0.1:63182
+1684167522793	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileu7sgGW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684167523792	Marionette	INFO	Marionette enabled
+1684167524056	Marionette	INFO	Listening on port 63191
+Read port: 63191
+1684167524239	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fl/_7zkqy_j7j73s6lx2yv46_nw0000gn/T/rust_mozprofileu7sgGW/search.json.mozlz4", (void 0)))
+1684167534121	Marionette	INFO	Stopped listening on port 63191
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
