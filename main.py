@@ -1,69 +1,35 @@
-import time
 import pandas as pd
-from selenium.webdriver import Firefox
-from selenium.webdriver.common.by import By
-import geckodriver_autoinstaller
+
+from bwin_funcs import Bwin
+from bah_funcs import BAH
+
+bwin = Bwin()
+bwin_games = bwin.get_football_games()
+
+bah = BAH()
+bah_games = bah.get_football_bets()
+
+result_merge = pd.merge(bwin_games, bah_games, on=['Team1','Team2'])
+
+cols = ['1_bwin', 'X_bwin', '2_bwin', '1_bah', 'X_bah', '2_bah']
+possibilities = [[True, True, True, False, False, False],
+                 [False, False, False, True, True, True],
+                 [True, True, False, False, False, True],
+                 [True, False, False, False, True, True],
+                 [False, True, True, True, False, False],
+                 [False, False, True, True, True, False],
+                 [True, False, True, False, True, False]]
+def f(x):
+    a, b, c = x
+    return 1/a+1/b+1/c
+
+for i, possibility in enumerate(possibilities):
+    tmp = [c for p, c in zip(possibility, cols) if p]
+    result_merge['ip_'+str(i)] = result_merge[tmp].apply(f, axis=1, result_type='expand')
+
+print(result_merge[cols].min())
+print(result_merge[cols].idxmin())
 
 
-def get_basketball_games():
-    driver = Firefox()
-    driver.minimize_window()
-    driver.get("https://sports.bwin.de/en/sports/basketball-7")
-
-    time.sleep(5)
-
-    class_team_names = "participants-pair-game"
-    score_names = "grid-scoreboard"
-
-    games = driver.find_elements(By.CLASS_NAME, class_team_names)
-    scores = driver.find_elements(By.CLASS_NAME, score_names)
-    games = [team.text.split("\n") + score.text.split("\n")
-             for team, score in zip(games, scores)]
-    print(games)
-    for game in games:
-        if "@" in game:
-            game.remove("@")
-
-    games_frame = pd.DataFrame(
-        data=games, columns=["Team1", "Team2", "Team1 points", "Team2 points"])
-    games_frame.to_csv('basketball_games.csv')
-
-    driver.quit()
-
-
-def get_football_games():
-    driver = Firefox()
-    driver.minimize_window()
-    driver.get("https://sports.bwin.de/en/sports/football-4")
-    time.sleep(5)
-    class_team_names = 'participants-pair-game'
-    class_score = 'grid-scoreboard'
-    class_option = 'grid-group-container'
-    class_col_names = 'grid-group-header'
-    games = driver.find_elements(By.CLASS_NAME, class_team_names)
-    scores = driver.find_elements(By.CLASS_NAME, class_score)
-    odds = driver.find_elements(By.CLASS_NAME, class_option)
-    cols = driver.find_elements(By.CLASS_NAME, class_col_names)
-    
-    cols = [col.text for col in cols]
-    cols = ["Team1", "Team2", "Team1 points", "Team2 points"]+cols
-    #odds = [odd.text.split("\n") for odd in odds]
-    odds.pop(0)
-    #print([odd.text.split("\n") for odd in odds])
-    games = [team.text.split("\n") + score.text.split("\n") + odd.text.split("\n")
-             for team, score, odd in zip(games, scores, odds)]
-    
-    for game in games:
-        if "@" in game:
-            game.remove("@")
-            
-    games_frame = pd.DataFrame(
-        data=games, columns=cols)
-    games_frame.to_csv('football_games.csv')
-
-    driver.quit()
-
-
-if __name__ == '__main__':
-    geckodriver_autoinstaller.install()
-    get_football_games()
+print(result_merge)
+#print(result)
