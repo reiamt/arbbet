@@ -13,7 +13,7 @@ class BAH:
 
     def get_football_bets(self):
         driver = Firefox()
-        driver.minimize_window()
+        #driver.minimize_window()
         driver.get("https://www.bet-at-home.de/mobile/de/sport/fussball/deutschland/bundesliga/2277364")
 
         time.sleep(5)

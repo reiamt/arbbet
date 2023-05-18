@@ -39,7 +39,7 @@ class Bwin:
 
     def get_football_games(self):
         driver = Firefox()
-        driver.minimize_window()
+        #driver.minimize_window()
         #driver.get("https://sports.bwin.de/en/sports/football-4")
         driver.get("https://sports.bwin.de/de/sports/fu%C3%9Fball-4/wetten/deutschland-17/bundesliga-102842")
         time.sleep(5)
@@ -59,7 +59,13 @@ class Bwin:
         scores = [s.text.split("\n") if len(s.text.split("\n")) == 2 else ['NaN','NaN'] for s in scores]
                 
         #odds = [odd.text.split("\n") for odd in odds]
-        odds.pop(0)
+        print(odds)
+        try:
+            odds.pop(0)
+        except Exception as e:
+            print(e)
+            driver.quit()
+
         #print([odd.text.split("\n") for odd in odds])
         games = [team.text.split("\n") + score + odd.text.split("\n")
                 for team, score, odd in zip(games, scores, odds)]
